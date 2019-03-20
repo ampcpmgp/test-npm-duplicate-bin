@@ -1,5 +1,5 @@
 {
-  "name": "test-npm-duplicate-bin-2",
+  "name": "test-npm-duplicate-bin-1",
   "version": "1.0.0",
   "description": "npm module の bin が同じだった場合、npm install時にどうなるかを確かめるレポジトリです。",
   "main": "index.js",
