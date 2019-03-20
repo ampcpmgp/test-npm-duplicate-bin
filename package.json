@@ -1,8 +1,11 @@
 {
-  "name": "test-npm-duplicate-bin",
+  "name": "test-npm-duplicate-bin-2",
   "version": "1.0.0",
   "description": "npm module の bin が同じだった場合、npm install時にどうなるかを確かめるレポジトリです。",
   "main": "index.js",
+  "bin": {
+    "test": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +17,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ampcpmgp/test-npm-duplicate-bin/issues"
-  },
-  "dependencies": {
-    "test-npm-duplicate-bin-1": "github:ampcpmgp/test-npm-duplicate-bin#test-log-1",
-    "test-npm-duplicate-bin-2": "github:ampcpmgp/test-npm-duplicate-bin#test-log-2"
   },
   "homepage": "https://github.com/ampcpmgp/test-npm-duplicate-bin#readme"
 }
